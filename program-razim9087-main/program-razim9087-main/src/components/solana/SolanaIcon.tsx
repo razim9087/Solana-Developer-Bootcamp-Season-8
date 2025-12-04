@@ -1,0 +1,22 @@
+// Solana SVG Icon
+export default function SolanaIcon({ className = '', size = 20 }: { className?: string; size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <linearGradient id="solana-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+        <stop stopColor="#00FFA3" />
+        <stop offset="1" stopColor="#DC1FFF" />
+      </linearGradient>
+      <rect width="40" height="40" rx="8" fill="#000" />
+      <path d="M10 13C10 12.4477 10.4477 12 11 12H29C29.5523 12 30 12.4477 30 13C30 13.5523 29.5523 14 29 14H11C10.4477 14 10 13.5523 10 13Z" fill="url(#solana-gradient)"/>
+      <path d="M10 20C10 19.4477 10.4477 19 11 19H29C29.5523 19 30 19.4477 30 20C30 20.5523 29.5523 21 29 21H11C10.4477 21 10 20.5523 10 20Z" fill="url(#solana-gradient)"/>
+      <path d="M10 27C10 26.4477 10.4477 26 11 26H29C29.5523 26 30 26.4477 30 27C30 27.5523 29.5523 28 29 28H11C10.4477 28 10 27.5523 10 27Z" fill="url(#solana-gradient)"/>
+    </svg>
+  );
+}

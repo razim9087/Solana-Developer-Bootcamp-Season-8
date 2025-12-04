@@ -1,0 +1,942 @@
+{
+  "address": "4mL9toWrUSsafhQ4YybWjxH3bxdjFdEZgEnaD9pX893k",
+  "metadata": {
+    "name": "basic",
+    "version": "0.1.0",
+    "spec": "0.1.0",
+    "description": "Created with Anchor"
+  },
+  "instructions": [
+    {
+      "name": "create_contract",
+      "discriminator": [
+        244,
+        48,
+        244,
+        178,
+        216,
+        88,
+        122,
+        52
+      ],
+      "accounts": [
+        {
+          "name": "buyer",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "seller",
+          "writable": true
+        },
+        {
+          "name": "contract",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  116,
+                  114,
+                  97,
+                  99,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "buyer"
+              },
+              {
+                "kind": "account",
+                "path": "seller"
+              },
+              {
+                "kind": "account",
+                "path": "buyer_account.contract_count",
+                "account": "UserAccount"
+              }
+            ]
+          }
+        },
+        {
+          "name": "buyer_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "buyer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "seller_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "seller"
+              }
+            ]
+          }
+        },
+        {
+          "name": "buyer_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "buyer"
+              }
+            ]
+          }
+        },
+        {
+          "name": "seller_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "seller"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "underlying_asset",
+          "type": "string"
+        },
+        {
+          "name": "num_units",
+          "type": "u64"
+        },
+        {
+          "name": "strike_price",
+          "type": "u64"
+        },
+        {
+          "name": "expiration_date",
+          "type": "i64"
+        },
+        {
+          "name": "option_type",
+          "type": {
+            "defined": {
+              "name": "OptionType"
+            }
+          }
+        },
+        {
+          "name": "premium",
+          "type": "u64"
+        },
+        {
+          "name": "margin_requirement_bps",
+          "type": "u16"
+        },
+        {
+          "name": "is_test",
+          "type": "bool"
+        }
+      ]
+    },
+    {
+      "name": "deposit",
+      "discriminator": [
+        242,
+        35,
+        198,
+        137,
+        82,
+        225,
+        242,
+        182
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "user_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "user"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "exercise",
+      "discriminator": [
+        144,
+        79,
+        103,
+        64,
+        241,
+        78,
+        80,
+        174
+      ],
+      "accounts": [
+        {
+          "name": "buyer",
+          "signer": true
+        },
+        {
+          "name": "contract",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  116,
+                  114,
+                  97,
+                  99,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.buyer",
+                "account": "OptionContract"
+              },
+              {
+                "kind": "account",
+                "path": "contract.seller",
+                "account": "OptionContract"
+              },
+              {
+                "kind": "account",
+                "path": "contract.contract_id",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "buyer_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.buyer",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "seller_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.seller",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        }
+      ],
+      "args": [
+        {
+          "name": "underlying_price_usd",
+          "type": "u64"
+        },
+        {
+          "name": "sol_price_usd",
+          "type": "u64"
+        }
+      ]
+    },
+    {
+      "name": "initialize_escrow",
+      "discriminator": [
+        243,
+        160,
+        77,
+        153,
+        11,
+        92,
+        48,
+        209
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "user_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "user"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "initialize_user",
+      "discriminator": [
+        111,
+        17,
+        185,
+        250,
+        60,
+        122,
+        38,
+        254
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "user_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "user"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "settle",
+      "discriminator": [
+        175,
+        42,
+        185,
+        87,
+        144,
+        131,
+        102,
+        212
+      ],
+      "accounts": [
+        {
+          "name": "caller",
+          "signer": true
+        },
+        {
+          "name": "contract",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  99,
+                  111,
+                  110,
+                  116,
+                  114,
+                  97,
+                  99,
+                  116
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.buyer",
+                "account": "OptionContract"
+              },
+              {
+                "kind": "account",
+                "path": "contract.seller",
+                "account": "OptionContract"
+              },
+              {
+                "kind": "account",
+                "path": "contract.contract_id",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "buyer_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.buyer",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "seller_account",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  117,
+                  115,
+                  101,
+                  114
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.seller",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "buyer_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.buyer",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "seller_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "contract.seller",
+                "account": "OptionContract"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": []
+    },
+    {
+      "name": "withdraw",
+      "discriminator": [
+        183,
+        18,
+        70,
+        156,
+        148,
+        109,
+        161,
+        34
+      ],
+      "accounts": [
+        {
+          "name": "user",
+          "writable": true,
+          "signer": true
+        },
+        {
+          "name": "user_escrow",
+          "writable": true,
+          "pda": {
+            "seeds": [
+              {
+                "kind": "const",
+                "value": [
+                  101,
+                  115,
+                  99,
+                  114,
+                  111,
+                  119
+                ]
+              },
+              {
+                "kind": "account",
+                "path": "user"
+              }
+            ]
+          }
+        },
+        {
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "OptionContract",
+      "discriminator": [
+        196,
+        220,
+        72,
+        61,
+        245,
+        42,
+        68,
+        234
+      ]
+    },
+    {
+      "name": "UserAccount",
+      "discriminator": [
+        211,
+        33,
+        136,
+        16,
+        186,
+        110,
+        242,
+        127
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InsufficientBalance",
+      "msg": "Insufficient balance in escrow"
+    },
+    {
+      "code": 6001,
+      "name": "ContractNotExpired",
+      "msg": "Contract has not expired yet"
+    },
+    {
+      "code": 6002,
+      "name": "ContractNotActive",
+      "msg": "Contract is not in active state"
+    },
+    {
+      "code": 6003,
+      "name": "UnauthorizedExercise",
+      "msg": "Only buyer can exercise the contract"
+    },
+    {
+      "code": 6004,
+      "name": "NotExercised",
+      "msg": "Contract must be exercised before settlement"
+    },
+    {
+      "code": 6005,
+      "name": "NoPendingBalance",
+      "msg": "No pending balance to settle"
+    },
+    {
+      "code": 6006,
+      "name": "InsufficientSellerEscrow",
+      "msg": "Seller escrow has insufficient funds for settlement"
+    },
+    {
+      "code": 6007,
+      "name": "CalculationError",
+      "msg": "Calculation error: overflow or division by zero"
+    },
+    {
+      "code": 6008,
+      "name": "MaxContractsReached",
+      "msg": "Maximum number of contracts reached"
+    },
+    {
+      "code": 6009,
+      "name": "AssetTickerTooLong",
+      "msg": "Asset ticker exceeds maximum length"
+    },
+    {
+      "code": 6010,
+      "name": "InvalidDepositAmount",
+      "msg": "Deposit amount must be greater than zero"
+    }
+  ],
+  "types": [
+    {
+      "name": "ContractStatus",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Active"
+          },
+          {
+            "name": "Exercised"
+          },
+          {
+            "name": "Settled"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OptionContract",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "contract_id",
+            "type": "u64"
+          },
+          {
+            "name": "creation_date",
+            "type": "i64"
+          },
+          {
+            "name": "underlying_asset",
+            "type": "string"
+          },
+          {
+            "name": "num_units",
+            "type": "u64"
+          },
+          {
+            "name": "strike_price",
+            "type": "u64"
+          },
+          {
+            "name": "expiration_date",
+            "type": "i64"
+          },
+          {
+            "name": "option_type",
+            "type": {
+              "defined": {
+                "name": "OptionType"
+              }
+            }
+          },
+          {
+            "name": "premium",
+            "type": "u64"
+          },
+          {
+            "name": "buyer",
+            "type": "pubkey"
+          },
+          {
+            "name": "seller",
+            "type": "pubkey"
+          },
+          {
+            "name": "buyer_escrow",
+            "type": "pubkey"
+          },
+          {
+            "name": "seller_escrow",
+            "type": "pubkey"
+          },
+          {
+            "name": "seller_pending_balance",
+            "type": "u64"
+          },
+          {
+            "name": "buyer_pending_balance",
+            "type": "u64"
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": {
+                "name": "ContractStatus"
+              }
+            }
+          },
+          {
+            "name": "margin_requirement_bps",
+            "type": "u16"
+          },
+          {
+            "name": "margin_amount",
+            "type": "u64"
+          },
+          {
+            "name": "is_test",
+            "type": "bool"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OptionType",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Call"
+          },
+          {
+            "name": "Put"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UserAccount",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "bump",
+            "type": "u8"
+          },
+          {
+            "name": "owner",
+            "type": "pubkey"
+          },
+          {
+            "name": "contract_count",
+            "type": "u64"
+          },
+          {
+            "name": "contracts",
+            "type": {
+              "vec": {
+                "defined": {
+                  "name": "UserContract"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "UserContract",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "contract_address",
+            "type": "pubkey"
+          },
+          {
+            "name": "role",
+            "type": {
+              "defined": {
+                "name": "UserRole"
+              }
+            }
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": {
+                "name": "ContractStatus"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "UserRole",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Buyer"
+          },
+          {
+            "name": "Seller"
+          }
+        ]
+      }
+    }
+  ]
+}

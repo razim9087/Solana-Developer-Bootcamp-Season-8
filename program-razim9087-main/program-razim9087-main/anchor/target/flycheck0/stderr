@@ -1,0 +1,3819 @@
+   0.888161100s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic)/Check { test: false }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\user\\OneDrive\\Desktop\\OTC-Options\\OTC_Options_v1\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   0.888991300s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\basic-e2581c60ed0849f7\lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.964682900s  INFO prepare_target{force=false package_id=anchor-lang v0.31.1 target="anchor_lang"}: cargo::core::compiler::fingerprint: fingerprint error for anchor-lang v0.31.1/Check { test: false }/TargetInner { ..: lib_target("anchor_lang", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\anchor-lang-0.31.1\\src\\lib.rs", Edition2021) }
+   0.964736300s  INFO prepare_target{force=false package_id=anchor-lang v0.31.1 target="anchor_lang"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\anchor-lang-ae622cbf121ca59f\lib-anchor_lang`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   1.024648000s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.21.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.21.7\\src\\lib.rs", Edition2018) }
+   1.024705800s  INFO prepare_target{force=false package_id=base64 v0.21.7 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\base64-94d4ee55fd6961c6\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.028107900s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint: fingerprint error for bincode v1.3.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bincode", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bincode-1.3.3\\src\\lib.rs", Edition2015) }
+   1.028166900s  INFO prepare_target{force=false package_id=bincode v1.3.3 target="bincode"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\bincode-9d02daf3c7d324f2\lib-bincode`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.030089100s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint: fingerprint error for serde v1.0.219/Check { test: false }/TargetInner { ..: lib_target("serde", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde-1.0.219\\src\\lib.rs", Edition2018) }
+   1.030152500s  INFO prepare_target{force=false package_id=serde v1.0.219 target="serde"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\serde-c99885f6781c57b2\lib-serde`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.032691700s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v0.10.4/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-0.10.4\\src\\lib.rs", Edition2018) }
+   1.032747900s  INFO prepare_target{force=false package_id=borsh v0.10.4 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\borsh-4c6ecac66eb37bf2\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.037125900s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint: fingerprint error for hashbrown v0.13.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("hashbrown", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\hashbrown-0.13.2\\src\\lib.rs", Edition2021) }
+   1.037190900s  INFO prepare_target{force=false package_id=hashbrown v0.13.2 target="hashbrown"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\hashbrown-3766b1201046bb94\lib-hashbrown`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.039480700s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint: fingerprint error for ahash v0.8.11/Check { test: false }/TargetInner { ..: lib_target("ahash", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ahash-0.8.11\\src\\lib.rs", Edition2018) }
+   1.039576900s  INFO prepare_target{force=false package_id=ahash v0.8.11 target="ahash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\ahash-be4f0b5118be55fe\lib-ahash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.045426300s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint: fingerprint error for cfg-if v1.0.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cfg_if", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cfg-if-1.0.0\\src\\lib.rs", Edition2018) }
+   1.045487000s  INFO prepare_target{force=false package_id=cfg-if v1.0.0 target="cfg_if"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\cfg-if-069f48f19e6067f3\lib-cfg_if`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.047740500s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint: fingerprint error for once_cell v1.21.3/Check { test: false }/TargetInner { ..: lib_target("once_cell", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\once_cell-1.21.3\\src\\lib.rs", Edition2021) }
+   1.047799600s  INFO prepare_target{force=false package_id=once_cell v1.21.3 target="once_cell"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\once_cell-ff0ad348901115f4\lib-once_cell`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.049364600s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.7.35/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zerocopy", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.7.35\\src\\lib.rs", Edition2018) }
+   1.049434700s  INFO prepare_target{force=false package_id=zerocopy v0.7.35 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\zerocopy-0b42a6848a8cad80\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.051165100s  INFO prepare_target{force=false package_id=bytemuck v1.22.0 target="bytemuck"}: cargo::core::compiler::fingerprint: fingerprint error for bytemuck v1.22.0/Check { test: false }/TargetInner { ..: lib_target("bytemuck", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bytemuck-1.22.0\\src\\lib.rs", Edition2018) }
+   1.051227200s  INFO prepare_target{force=false package_id=bytemuck v1.22.0 target="bytemuck"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\bytemuck-253e95bc91b24823\lib-bytemuck`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.053266600s  INFO prepare_target{force=false package_id=solana-program v2.2.1 target="solana_program"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program", ["cdylib", "rlib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-2.2.1\\src\\lib.rs", Edition2021) }
+   1.053334100s  INFO prepare_target{force=false package_id=solana-program v2.2.1 target="solana_program"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-85188f27a14ea8f8\lib-solana_program`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.057382400s  INFO prepare_target{force=false package_id=blake3 v1.8.2 target="blake3"}: cargo::core::compiler::fingerprint: fingerprint error for blake3 v1.8.2/Check { test: false }/TargetInner { ..: lib_target("blake3", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\blake3-1.8.2\\src\\lib.rs", Edition2021) }
+   1.057441400s  INFO prepare_target{force=false package_id=blake3 v1.8.2 target="blake3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\blake3-91fec497cfec5a26\lib-blake3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.059743100s  INFO prepare_target{force=false package_id=arrayref v0.3.9 target="arrayref"}: cargo::core::compiler::fingerprint: fingerprint error for arrayref v0.3.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("arrayref", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayref-0.3.9\\src\\lib.rs", Edition2015) }
+   1.059819800s  INFO prepare_target{force=false package_id=arrayref v0.3.9 target="arrayref"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\arrayref-90afaed478bf2985\lib-arrayref`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.062329900s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint: fingerprint error for arrayvec v0.7.6/Check { test: false }/TargetInner { ..: lib_target("arrayvec", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\arrayvec-0.7.6\\src\\lib.rs", Edition2018) }
+   1.062385200s  INFO prepare_target{force=false package_id=arrayvec v0.7.6 target="arrayvec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\arrayvec-bd60b7efa38280e3\lib-arrayvec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.068050200s  INFO prepare_target{force=false package_id=constant_time_eq v0.3.1 target="constant_time_eq"}: cargo::core::compiler::fingerprint: fingerprint error for constant_time_eq v0.3.1/Check { test: false }/TargetInner { ..: lib_target("constant_time_eq", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\constant_time_eq-0.3.1\\src\\lib.rs", Edition2021) }
+   1.068104900s  INFO prepare_target{force=false package_id=constant_time_eq v0.3.1 target="constant_time_eq"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\constant_time_eq-7bcd2e406072eed7\lib-constant_time_eq`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.069454400s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.10.7\\src\\lib.rs", Edition2018) }
+   1.069507100s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\digest-68a4ea0beaa4afe1\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.071310200s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.10.4\\src\\lib.rs", Edition2018) }
+   1.071393200s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\block-buffer-e6be57c3907b445d\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.073533500s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\generic-array-0.14.7\\src\\lib.rs", Edition2015) }
+   1.073587200s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\generic-array-6cf9c10083e6af01\lib-generic_array`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.075852500s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.18.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\typenum-1.18.0\\src\\lib.rs", Edition2018) }
+   1.075962600s  INFO prepare_target{force=false package_id=typenum v1.18.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\typenum-2b1214b18cf47ec7\lib-typenum`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.077692400s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("crypto_common", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crypto-common-0.1.6\\src\\lib.rs", Edition2018) }
+   1.077747700s  INFO prepare_target{force=false package_id=crypto-common v0.1.6 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\crypto-common-d2e2c0788ddcde87\lib-crypto_common`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.079773300s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\subtle-2.6.1\\src\\lib.rs", Edition2018) }
+   1.079828200s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\subtle-19b742ed19baa898\lib-subtle`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.082107700s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint: fingerprint error for borsh v1.5.7/Check { test: false }/TargetInner { ..: lib_target("borsh", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\borsh-1.5.7\\src\\lib.rs", Edition2018) }
+   1.082169300s  INFO prepare_target{force=false package_id=borsh v1.5.7 target="borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\borsh-ac85409232648ef4\lib-borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.092391800s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint: fingerprint error for bs58 v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bs58", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bs58-0.5.1\\src\\lib.rs", Edition2021) }
+   1.092447900s  INFO prepare_target{force=false package_id=bs58 v0.5.1 target="bs58"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\bs58-7870d7e1c02fa44d\lib-bs58`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.093870200s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint: fingerprint error for lazy_static v1.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("lazy_static", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\lazy_static-1.5.0\\src\\lib.rs", Edition2015) }
+   1.093925800s  INFO prepare_target{force=false package_id=lazy_static v1.5.0 target="lazy_static"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\lazy_static-d4db786a07b3ea49\lib-lazy_static`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.095972200s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint: fingerprint error for log v0.4.27/Check { test: false }/TargetInner { ..: lib_target("log", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\log-0.4.27\\src\\lib.rs", Edition2021) }
+   1.096026100s  INFO prepare_target{force=false package_id=log v0.4.27 target="log"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\log-9b70b8763c05074e\lib-log`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.098348900s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint: fingerprint error for memoffset v0.9.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("memoffset", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\memoffset-0.9.1\\src\\lib.rs", Edition2015) }
+   1.098415100s  INFO prepare_target{force=false package_id=memoffset v0.9.1 target="memoffset"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\memoffset-f317283ca89b5139\lib-memoffset`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.103136300s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint: fingerprint error for num-bigint v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_bigint", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-bigint-0.4.6\\src\\lib.rs", Edition2021) }
+   1.103195900s  INFO prepare_target{force=false package_id=num-bigint v0.4.6 target="num_bigint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\num-bigint-5aa75936b563bc0a\lib-num_bigint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.104782900s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint error for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-integer-0.1.46\\src\\lib.rs", Edition2018) }
+   1.104832500s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\num-integer-1ca4c54f691a35e1\lib-num_integer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.106296700s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint error for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\num-traits-0.2.19\\src\\lib.rs", Edition2021) }
+   1.106347200s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\num-traits-59b8e961296b36e6\lib-num_traits`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.113223100s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.8.5\\src\\lib.rs", Edition2018) }
+   1.113288600s  INFO prepare_target{force=false package_id=rand v0.8.5 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand-3368a728a6ddbdf6\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.114977600s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.3.1\\src\\lib.rs", Edition2018) }
+   1.115035000s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand_chacha-e10df403555996c5\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.116644100s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\ppv-lite86-0.2.21\\src\\lib.rs", Edition2021) }
+   1.116693500s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\ppv-lite86-9e63201ba420d5d3\lib-ppv_lite86`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.118043900s  INFO prepare_target{force=false package_id=zerocopy v0.8.24 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.24/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zerocopy-0.8.24\\src\\lib.rs", Edition2021) }
+   1.118091400s  INFO prepare_target{force=false package_id=zerocopy v0.8.24 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\zerocopy-84bce968ca88c93e\lib-zerocopy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.122400000s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.6.4\\src\\lib.rs", Edition2018) }
+   1.122452400s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand_core-ec59a8da42d28a33\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.123812800s  INFO prepare_target{force=false package_id=getrandom v0.2.15 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.15/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.2.15\\src\\lib.rs", Edition2018) }
+   1.123863300s  INFO prepare_target{force=false package_id=getrandom v0.2.15 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\getrandom-a0509f8ad49875d0\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.125442000s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint: fingerprint error for serde_bytes v0.11.17/Check { test: false }/TargetInner { ..: lib_target("serde_bytes", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\serde_bytes-0.11.17\\src\\lib.rs", Edition2018) }
+   1.125491600s  INFO prepare_target{force=false package_id=serde_bytes v0.11.17 target="serde_bytes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\serde_bytes-d5c20ae38c934cc2\lib-serde_bytes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.127665300s  INFO prepare_target{force=false package_id=solana-account-info v2.2.1 target="solana_account_info"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account-info v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_account_info", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-info-2.2.1\\src\\lib.rs", Edition2021) }
+   1.127761500s  INFO prepare_target{force=false package_id=solana-account-info v2.2.1 target="solana_account_info"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-account-info-6e00d4d00c29ebc7\lib-solana_account_info`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.130562300s  INFO prepare_target{force=false package_id=solana-program-error v2.2.1 target="solana_program_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_error", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-error-2.2.1\\src\\lib.rs", Edition2021) }
+   1.130703600s  INFO prepare_target{force=false package_id=solana-program-error v2.2.1 target="solana_program_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-error-246def9f2395f90b\lib-solana_program_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.133095100s  INFO prepare_target{force=false package_id=solana-decode-error v2.2.1 target="solana_decode_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-decode-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_decode_error", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-decode-error-2.2.1\\src\\lib.rs", Edition2021) }
+   1.133172100s  INFO prepare_target{force=false package_id=solana-decode-error v2.2.1 target="solana_decode_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-decode-error-d7805ffe074e30af\lib-solana_decode_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.135157200s  INFO prepare_target{force=false package_id=solana-instruction v2.2.1 target="solana_instruction"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instruction v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_instruction", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instruction-2.2.1\\src\\lib.rs", Edition2021) }
+   1.135220600s  INFO prepare_target{force=false package_id=solana-instruction v2.2.1 target="solana_instruction"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-instruction-2f3427abd1c05e2b\lib-solana_instruction`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.137203000s  INFO prepare_target{force=false package_id=solana-pubkey v2.3.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint: fingerprint error for solana-pubkey v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_pubkey", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-pubkey-2.3.0\\src\\lib.rs", Edition2021) }
+   1.137256900s  INFO prepare_target{force=false package_id=solana-pubkey v2.3.0 target="solana_pubkey"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-pubkey-34ee676eafae1668\lib-solana_pubkey`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.140917100s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint: fingerprint error for curve25519-dalek v4.1.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("curve25519_dalek", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\curve25519-dalek-4.1.3\\src\\lib.rs", Edition2021) }
+   1.140970200s  INFO prepare_target{force=false package_id=curve25519-dalek v4.1.3 target="curve25519_dalek"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\curve25519-dalek-e96d8403d7e08a01\lib-curve25519_dalek`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.143020200s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\cpufeatures-0.2.17\\src\\lib.rs", Edition2018) }
+   1.143080500s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\cpufeatures-3020ffd0b9e8c469\lib-cpufeatures`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.153172700s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("zeroize", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\zeroize-1.8.1\\src\\lib.rs", Edition2021) }
+   1.153234900s  INFO prepare_target{force=false package_id=zeroize v1.8.1 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\zeroize-97964a14cd18e119\lib-zeroize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.154543000s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint: fingerprint error for five8_const v0.1.4/Check { test: false }/TargetInner { ..: lib_target("five8_const", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_const-0.1.4\\src\\lib.rs", Edition2021) }
+   1.154628000s  INFO prepare_target{force=false package_id=five8_const v0.1.4 target="five8_const"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\five8_const-39915d0419d2e0e9\lib-five8_const`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.156432400s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint: fingerprint error for five8_core v0.1.2/Check { test: false }/TargetInner { ..: lib_target("five8_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\five8_core-0.1.2\\src\\lib.rs", Edition2021) }
+   1.156482800s  INFO prepare_target{force=false package_id=five8_core v0.1.2 target="five8_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\five8_core-847f51cf7f5a6a18\lib-five8_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.157926700s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint: fingerprint error for solana-atomic-u64 v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_atomic_u64", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-atomic-u64-2.2.1\\src\\lib.rs", Edition2021) }
+   1.157974100s  INFO prepare_target{force=false package_id=solana-atomic-u64 v2.2.1 target="solana_atomic_u64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-atomic-u64-8a9bec5b86e01c27\lib-solana_atomic_u64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.159630200s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sanitize v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sanitize", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sanitize-2.2.1\\src\\lib.rs", Edition2021) }
+   1.159691100s  INFO prepare_target{force=false package_id=solana-sanitize v2.2.1 target="solana_sanitize"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-sanitize-af6182be5ef0458c\lib-solana_sanitize`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.161065000s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.2.1 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sha256-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sha256_hasher", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sha256-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+   1.161124000s  INFO prepare_target{force=false package_id=solana-sha256-hasher v2.2.1 target="solana_sha256_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-sha256-hasher-5f90d30e1e2d3421\lib-solana_sha256_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.163803200s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.10.8\\src\\lib.rs", Edition2018) }
+   1.163869900s  INFO prepare_target{force=false package_id=sha2 v0.10.8 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\sha2-5cdec099ee82a821\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.165490300s  INFO prepare_target{force=false package_id=solana-hash v2.2.1 target="solana_hash"}: cargo::core::compiler::fingerprint: fingerprint error for solana-hash v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_hash", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-hash-2.2.1\\src\\lib.rs", Edition2021) }
+   1.165545100s  INFO prepare_target{force=false package_id=solana-hash v2.2.1 target="solana_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-hash-1c4b157ef3b6bd53\lib-solana_hash`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_path
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: git_filter_source_repo
+  22: <unknown>
+  23: <unknown>
+  24: git_midx_writer_dump
+  25: git_filter_source_repo
+  26: git_midx_writer_dump
+  27: BaseThreadInitThunk
+  28: RtlUserThreadStart
+   1.167309400s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint: fingerprint error for solana-msg v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_msg", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-msg-2.2.1\\src\\lib.rs", Edition2021) }
+   1.167365000s  INFO prepare_target{force=false package_id=solana-msg v2.2.1 target="solana_msg"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-msg-6dee3f1e33abaced\lib-solana_msg`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.168746800s  INFO prepare_target{force=false package_id=solana-program-memory v2.2.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-memory v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_memory", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-memory-2.2.1\\src\\lib.rs", Edition2021) }
+   1.168799800s  INFO prepare_target{force=false package_id=solana-program-memory v2.2.1 target="solana_program_memory"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-memory-a2ffcad2bffbb7fe\lib-solana_program_memory`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.170763300s  INFO prepare_target{force=false package_id=solana-address-lookup-table-interface v2.2.2 target="solana_address_lookup_table_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-address-lookup-table-interface v2.2.2/Check { test: false }/TargetInner { ..: lib_target("solana_address_lookup_table_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-address-lookup-table-interface-2.2.2\\src\\lib.rs", Edition2021) }
+   1.170934400s  INFO prepare_target{force=false package_id=solana-address-lookup-table-interface v2.2.2 target="solana_address_lookup_table_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-address-lookup-table-interface-a16888c4fd6acad7\lib-solana_address_lookup_table_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.173236300s  INFO prepare_target{force=false package_id=solana-clock v2.2.1 target="solana_clock"}: cargo::core::compiler::fingerprint: fingerprint error for solana-clock v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_clock", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-clock-2.2.1\\src\\lib.rs", Edition2021) }
+   1.173293300s  INFO prepare_target{force=false package_id=solana-clock v2.2.1 target="solana_clock"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-clock-28c41136961cac2b\lib-solana_clock`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.175760500s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sdk-ids v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sdk_ids", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sdk-ids-2.2.1\\src\\lib.rs", Edition2021) }
+   1.175829900s  INFO prepare_target{force=false package_id=solana-sdk-ids v2.2.1 target="solana_sdk_ids"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-sdk-ids-d4a30dc60b48e2e2\lib-solana_sdk_ids`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.178499900s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar-id v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar_id", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-id-2.2.1\\src\\lib.rs", Edition2021) }
+   1.178557000s  INFO prepare_target{force=false package_id=solana-sysvar-id v2.2.1 target="solana_sysvar_id"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-sysvar-id-af0b2a5c99584c10\lib-solana_sysvar_id`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.180965600s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-hashes v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_hashes", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-hashes-2.2.1\\src\\lib.rs", Edition2021) }
+   1.181033200s  INFO prepare_target{force=false package_id=solana-slot-hashes v2.2.1 target="solana_slot_hashes"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-slot-hashes-1948a1f6920e16ff\lib-solana_slot_hashes`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.183096500s  INFO prepare_target{force=false package_id=solana-big-mod-exp v2.2.1 target="solana_big_mod_exp"}: cargo::core::compiler::fingerprint: fingerprint error for solana-big-mod-exp v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_big_mod_exp", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-big-mod-exp-2.2.1\\src\\lib.rs", Edition2021) }
+   1.183155000s  INFO prepare_target{force=false package_id=solana-big-mod-exp v2.2.1 target="solana_big_mod_exp"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-big-mod-exp-66ed8ac4ad757647\lib-solana_big_mod_exp`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.184695700s  INFO prepare_target{force=false package_id=solana-bincode v2.2.1 target="solana_bincode"}: cargo::core::compiler::fingerprint: fingerprint error for solana-bincode v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_bincode", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-bincode-2.2.1\\src\\lib.rs", Edition2021) }
+   1.184743900s  INFO prepare_target{force=false package_id=solana-bincode v2.2.1 target="solana_bincode"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-bincode-39cf9b8f51151925\lib-solana_bincode`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.186646800s  INFO prepare_target{force=false package_id=solana-blake3-hasher v2.2.1 target="solana_blake3_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-blake3-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_blake3_hasher", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-blake3-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+   1.186702200s  INFO prepare_target{force=false package_id=solana-blake3-hasher v2.2.1 target="solana_blake3_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-blake3-hasher-efd75e2f8c4a503c\lib-solana_blake3_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.188846200s  INFO prepare_target{force=false package_id=solana-borsh v2.2.1 target="solana_borsh"}: cargo::core::compiler::fingerprint: fingerprint error for solana-borsh v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_borsh", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-borsh-2.2.1\\src\\lib.rs", Edition2021) }
+   1.188901900s  INFO prepare_target{force=false package_id=solana-borsh v2.2.1 target="solana_borsh"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-borsh-b2d01fdee608b11b\lib-solana_borsh`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.190549000s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint: fingerprint error for solana-cpi v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_cpi", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-cpi-2.2.1\\src\\lib.rs", Edition2021) }
+   1.190601400s  INFO prepare_target{force=false package_id=solana-cpi v2.2.1 target="solana_cpi"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-cpi-1efc71f388d15f96\lib-solana_cpi`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.193110000s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-rewards v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_rewards", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-rewards-2.2.1\\src\\lib.rs", Edition2021) }
+   1.193177100s  INFO prepare_target{force=false package_id=solana-epoch-rewards v2.2.1 target="solana_epoch_rewards"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-epoch-rewards-101e82251ea37084\lib-solana_epoch_rewards`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.195159100s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint: fingerprint error for solana-epoch-schedule v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_epoch_schedule", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-epoch-schedule-2.2.1\\src\\lib.rs", Edition2021) }
+   1.195324000s  INFO prepare_target{force=false package_id=solana-epoch-schedule v2.2.1 target="solana_epoch_schedule"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-epoch-schedule-17e8948c82a602de\lib-solana_epoch_schedule`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.197527600s  INFO prepare_target{force=false package_id=solana-example-mocks v2.2.1 target="solana_example_mocks"}: cargo::core::compiler::fingerprint: fingerprint error for solana-example-mocks v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_example_mocks", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-example-mocks-2.2.1\\src\\lib.rs", Edition2021) }
+   1.197586500s  INFO prepare_target{force=false package_id=solana-example-mocks v2.2.1 target="solana_example_mocks"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-example-mocks-cc5fec406b1a0aed\lib-solana_example_mocks`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.200207200s  INFO prepare_target{force=false package_id=solana-keccak-hasher v2.2.1 target="solana_keccak_hasher"}: cargo::core::compiler::fingerprint: fingerprint error for solana-keccak-hasher v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_keccak_hasher", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-keccak-hasher-2.2.1\\src\\lib.rs", Edition2021) }
+   1.200267700s  INFO prepare_target{force=false package_id=solana-keccak-hasher v2.2.1 target="solana_keccak_hasher"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-keccak-hasher-2deba551fd274d33\lib-solana_keccak_hasher`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.201771400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint: fingerprint error for sha3 v0.10.8/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha3", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha3-0.10.8\\src\\lib.rs", Edition2018) }
+   1.201816400s  INFO prepare_target{force=false package_id=sha3 v0.10.8 target="sha3"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\sha3-7e80349e8c885be3\lib-sha3`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.203295900s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint: fingerprint error for keccak v0.1.5/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("keccak", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\keccak-0.1.5\\src\\lib.rs", Edition2018) }
+   1.203345700s  INFO prepare_target{force=false package_id=keccak v0.1.5 target="keccak"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\keccak-7b975435768be6c2\lib-keccak`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.204989900s  INFO prepare_target{force=false package_id=solana-message v2.3.0 target="solana_message"}: cargo::core::compiler::fingerprint: fingerprint error for solana-message v2.3.0/Check { test: false }/TargetInner { ..: lib_target("solana_message", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-message-2.3.0\\src\\lib.rs", Edition2021) }
+   1.205048600s  INFO prepare_target{force=false package_id=solana-message v2.3.0 target="solana_message"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-message-5cf2f79539b26d86\lib-solana_message`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.207609500s  INFO prepare_target{force=false package_id=solana-short-vec v2.2.1 target="solana_short_vec"}: cargo::core::compiler::fingerprint: fingerprint error for solana-short-vec v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_short_vec", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-short-vec-2.2.1\\src\\lib.rs", Edition2021) }
+   1.207663100s  INFO prepare_target{force=false package_id=solana-short-vec v2.2.1 target="solana_short_vec"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-short-vec-b20ed179f9a65c54\lib-solana_short_vec`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.210291700s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-system-interface v1.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_system_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-system-interface-1.0.0\\src\\lib.rs", Edition2021) }
+   1.210389600s  INFO prepare_target{force=false package_id=solana-system-interface v1.0.0 target="solana_system_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-system-interface-2fa23ee89f4ca1a4\lib-solana_system_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.212609200s  INFO prepare_target{force=false package_id=solana-transaction-error v2.2.1 target="solana_transaction_error"}: cargo::core::compiler::fingerprint: fingerprint error for solana-transaction-error v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_transaction_error", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-transaction-error-2.2.1\\src\\lib.rs", Edition2021) }
+   1.212676800s  INFO prepare_target{force=false package_id=solana-transaction-error v2.2.1 target="solana_transaction_error"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-transaction-error-e638ce59b7fb94d9\lib-solana_transaction_error`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.215743200s  INFO prepare_target{force=false package_id=solana-nonce v2.2.1 target="solana_nonce"}: cargo::core::compiler::fingerprint: fingerprint error for solana-nonce v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_nonce", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-nonce-2.2.1\\src\\lib.rs", Edition2021) }
+   1.215802700s  INFO prepare_target{force=false package_id=solana-nonce v2.2.1 target="solana_nonce"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-nonce-910157fdf64d9ac1\lib-solana_nonce`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.217821500s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint: fingerprint error for solana-fee-calculator v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_fee_calculator", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-fee-calculator-2.2.1\\src\\lib.rs", Edition2021) }
+   1.217904200s  INFO prepare_target{force=false package_id=solana-fee-calculator v2.2.1 target="solana_fee_calculator"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-fee-calculator-84ecf38a1e756c95\lib-solana_fee_calculator`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.219803200s  INFO prepare_target{force=false package_id=thiserror v2.0.12 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v2.0.12/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-2.0.12\\src\\lib.rs", Edition2021) }
+   1.219863800s  INFO prepare_target{force=false package_id=thiserror v2.0.12 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\thiserror-e8acbb9a41ef079d\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.225420900s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.1 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-feature-gate-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_feature_gate_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-feature-gate-interface-2.2.1\\src\\lib.rs", Edition2021) }
+   1.225484000s  INFO prepare_target{force=false package_id=solana-feature-gate-interface v2.2.1 target="solana_feature_gate_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-feature-gate-interface-2a1ac79ddd3de13a\lib-solana_feature_gate_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.228470500s  INFO prepare_target{force=false package_id=solana-account v2.2.1 target="solana_account"}: cargo::core::compiler::fingerprint: fingerprint error for solana-account v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_account", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-account-2.2.1\\src\\lib.rs", Edition2021) }
+   1.228530600s  INFO prepare_target{force=false package_id=solana-account v2.2.1 target="solana_account"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-account-236e310e5d9c5a93\lib-solana_account`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.230728100s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint: fingerprint error for solana-rent v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_rent", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-rent-2.2.1\\src\\lib.rs", Edition2021) }
+   1.230786200s  INFO prepare_target{force=false package_id=solana-rent v2.2.1 target="solana_rent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-rent-2546a3e8125f161a\lib-solana_rent`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.233033600s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.1 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-instructions-sysvar v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_instructions_sysvar", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-instructions-sysvar-2.2.1\\src\\lib.rs", Edition2021) }
+   1.233091800s  INFO prepare_target{force=false package_id=solana-instructions-sysvar v2.2.1 target="solana_instructions_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-instructions-sysvar-80f652fb3daf8658\lib-solana_instructions_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.235119700s  INFO prepare_target{force=false package_id=bitflags v2.9.0 target="bitflags"}: cargo::core::compiler::fingerprint: fingerprint error for bitflags v2.9.0/Check { test: false }/TargetInner { ..: lib_target("bitflags", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bitflags-2.9.0\\src\\lib.rs", Edition2021) }
+   1.235174300s  INFO prepare_target{force=false package_id=bitflags v2.9.0 target="bitflags"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\bitflags-fcf16b80a0f3ec8e\lib-bitflags`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.237083100s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint: fingerprint error for solana-serialize-utils v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_serialize_utils", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-serialize-utils-2.2.1\\src\\lib.rs", Edition2021) }
+   1.237138000s  INFO prepare_target{force=false package_id=solana-serialize-utils v2.2.1 target="solana_serialize_utils"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-serialize-utils-856184fd93d606c8\lib-solana_serialize_utils`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.238895100s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint: fingerprint error for solana-last-restart-slot v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_last_restart_slot", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-last-restart-slot-2.2.1\\src\\lib.rs", Edition2021) }
+   1.238944800s  INFO prepare_target{force=false package_id=solana-last-restart-slot v2.2.1 target="solana_last_restart_slot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-last-restart-slot-a4b31417e0b796ef\lib-solana_last_restart_slot`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.240945200s  INFO prepare_target{force=false package_id=solana-loader-v2-interface v2.2.1 target="solana_loader_v2_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v2-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v2_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v2-interface-2.2.1\\src\\lib.rs", Edition2021) }
+   1.240999600s  INFO prepare_target{force=false package_id=solana-loader-v2-interface v2.2.1 target="solana_loader_v2_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-loader-v2-interface-6251bb8283b7b299\lib-solana_loader_v2_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.243720500s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v3.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v3-interface v3.0.0/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v3_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v3-interface-3.0.0\\src\\lib.rs", Edition2021) }
+   1.243786700s  INFO prepare_target{force=false package_id=solana-loader-v3-interface v3.0.0 target="solana_loader_v3_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-loader-v3-interface-341710f26610efe0\lib-solana_loader_v3_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.246315000s  INFO prepare_target{force=false package_id=solana-loader-v4-interface v2.2.1 target="solana_loader_v4_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-loader-v4-interface v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_loader_v4_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-loader-v4-interface-2.2.1\\src\\lib.rs", Edition2021) }
+   1.246373000s  INFO prepare_target{force=false package_id=solana-loader-v4-interface v2.2.1 target="solana_loader_v4_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-loader-v4-interface-b13f011cfa2f4a20\lib-solana_loader_v4_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.248517300s  INFO prepare_target{force=false package_id=solana-native-token v2.2.1 target="solana_native_token"}: cargo::core::compiler::fingerprint: fingerprint error for solana-native-token v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_native_token", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-native-token-2.2.1\\src\\lib.rs", Edition2021) }
+   1.248568100s  INFO prepare_target{force=false package_id=solana-native-token v2.2.1 target="solana_native_token"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-native-token-052a6e90969615cd\lib-solana_native_token`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.250298400s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.2.1 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-entrypoint v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_entrypoint", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-entrypoint-2.2.1\\src\\lib.rs", Edition2021) }
+   1.250379700s  INFO prepare_target{force=false package_id=solana-program-entrypoint v2.2.1 target="solana_program_entrypoint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-entrypoint-5f8de555cae1f419\lib-solana_program_entrypoint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.252852900s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-option v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_option", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-option-2.2.1\\src\\lib.rs", Edition2021) }
+   1.252931500s  INFO prepare_target{force=false package_id=solana-program-option v2.2.1 target="solana_program_option"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-option-54a78770196dd09b\lib-solana_program_option`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.254766300s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint: fingerprint error for solana-program-pack v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_program_pack", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-program-pack-2.2.1\\src\\lib.rs", Edition2021) }
+   1.254822900s  INFO prepare_target{force=false package_id=solana-program-pack v2.2.1 target="solana_program_pack"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-program-pack-b493d5a48f71e6b4\lib-solana_program_pack`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.256641100s  INFO prepare_target{force=false package_id=solana-secp256k1-recover v2.2.1 target="solana_secp256k1_recover"}: cargo::core::compiler::fingerprint: fingerprint error for solana-secp256k1-recover v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_secp256k1_recover", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-secp256k1-recover-2.2.1\\src\\lib.rs", Edition2021) }
+   1.256695400s  INFO prepare_target{force=false package_id=solana-secp256k1-recover v2.2.1 target="solana_secp256k1_recover"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-secp256k1-recover-9e058cabfef5fbdd\lib-solana_secp256k1_recover`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.258615300s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint: fingerprint error for libsecp256k1 v0.6.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsecp256k1-0.6.0\\src\\lib.rs", Edition2018) }
+   1.258919600s  INFO prepare_target{force=false package_id=libsecp256k1 v0.6.0 target="libsecp256k1"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\libsecp256k1-c81ae1f930687185\lib-libsecp256k1`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.261069800s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.12.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.12.3\\src\\lib.rs", Edition2018) }
+   1.261163000s  INFO prepare_target{force=false package_id=base64 v0.12.3 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\base64-348c8317e705bdd5\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.262984400s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\digest-0.9.0\\src\\lib.rs", Edition2018) }
+   1.263052000s  INFO prepare_target{force=false package_id=digest v0.9.0 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\digest-a83955b9e052dba0\lib-digest`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.273283000s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint: fingerprint error for libsecp256k1-core v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("libsecp256k1_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\libsecp256k1-core-0.2.2\\src\\lib.rs", Edition2018) }
+   1.273336600s  INFO prepare_target{force=false package_id=libsecp256k1-core v0.2.2 target="libsecp256k1_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\libsecp256k1-core-59200b09c5d79891\lib-libsecp256k1_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.274747500s  INFO prepare_target{force=false package_id=crunchy v0.2.3 target="crunchy"}: cargo::core::compiler::fingerprint: fingerprint error for crunchy v0.2.3/Check { test: false }/TargetInner { ..: lib_target("crunchy", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\crunchy-0.2.3\\src\\lib.rs", Edition2021) }
+   1.274796300s  INFO prepare_target{force=false package_id=crunchy v0.2.3 target="crunchy"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\crunchy-8d1d874cbf7095ca\lib-crunchy`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.276273000s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.7.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand-0.7.3\\src\\lib.rs", Edition2018) }
+   1.276327800s  INFO prepare_target{force=false package_id=rand v0.7.3 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand-d5640ec2b48bcbd0\lib-rand`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.278420100s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.1.16/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("getrandom", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\getrandom-0.1.16\\src\\lib.rs", Edition2018) }
+   1.278489300s  INFO prepare_target{force=false package_id=getrandom v0.1.16 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\getrandom-8e937d358cc48f67\lib-getrandom`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.282785600s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.2.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_chacha-0.2.2\\src\\lib.rs", Edition2018) }
+   1.282878100s  INFO prepare_target{force=false package_id=rand_chacha v0.2.2 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand_chacha-89929ee688ed4afb\lib-rand_chacha`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.284438000s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rand_core-0.5.1\\src\\lib.rs", Edition2018) }
+   1.284607700s  INFO prepare_target{force=false package_id=rand_core v0.5.1 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\rand_core-eab7bc2ebe3fdbc6\lib-rand_core`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_path
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: git_filter_source_repo
+  21: <unknown>
+  22: <unknown>
+  23: git_midx_writer_dump
+  24: git_filter_source_repo
+  25: git_midx_writer_dump
+  26: BaseThreadInitThunk
+  27: RtlUserThreadStart
+   1.287157700s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint: fingerprint error for sha2 v0.9.9/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("sha2", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\sha2-0.9.9\\src\\lib.rs", Edition2018) }
+   1.287211900s  INFO prepare_target{force=false package_id=sha2 v0.9.9 target="sha2"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\sha2-0da43f709f9348d8\lib-sha2`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: <unknown>
+  20: <unknown>
+  21: git_midx_writer_dump
+  22: git_filter_source_repo
+  23: git_midx_writer_dump
+  24: BaseThreadInitThunk
+  25: RtlUserThreadStart
+   1.289194300s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.9.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\block-buffer-0.9.0\\src\\lib.rs", Edition2018) }
+   1.289247900s  INFO prepare_target{force=false package_id=block-buffer v0.9.0 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\block-buffer-c1309d1cc798e672\lib-block_buffer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.290824900s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint: fingerprint error for opaque-debug v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("opaque_debug", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\opaque-debug-0.3.1\\src\\lib.rs", Edition2018) }
+   1.290876800s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\opaque-debug-446c65f57463b1da\lib-opaque_debug`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_path
+  14: git_filter_source_path
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: git_filter_source_repo
+  19: git_filter_source_repo
+  20: <unknown>
+  21: <unknown>
+  22: git_midx_writer_dump
+  23: git_filter_source_repo
+  24: git_midx_writer_dump
+  25: BaseThreadInitThunk
+  26: RtlUserThreadStart
+   1.292520000s  INFO prepare_target{force=false package_id=solana-serde-varint v2.2.1 target="solana_serde_varint"}: cargo::core::compiler::fingerprint: fingerprint error for solana-serde-varint v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_serde_varint", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-serde-varint-2.2.1\\src\\lib.rs", Edition2021) }
+   1.292572900s  INFO prepare_target{force=false package_id=solana-serde-varint v2.2.1 target="solana_serde_varint"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-serde-varint-0356c5278380f038\lib-solana_serde_varint`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.294703200s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint: fingerprint error for solana-slot-history v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_slot_history", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-slot-history-2.2.1\\src\\lib.rs", Edition2021) }
+   1.294765700s  INFO prepare_target{force=false package_id=solana-slot-history v2.2.1 target="solana_slot_history"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-slot-history-a81e7056da2e2120\lib-solana_slot_history`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.297427000s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint: fingerprint error for bv v0.11.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("bv", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\bv-0.11.1\\src\\lib.rs", Edition2015) }
+   1.297480600s  INFO prepare_target{force=false package_id=bv v0.11.1 target="bv"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\bv-4048c84bbde4057f\lib-bv`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.302534300s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stable-layout v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stable_layout", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stable-layout-2.2.1\\src\\lib.rs", Edition2021) }
+   1.302591000s  INFO prepare_target{force=false package_id=solana-stable-layout v2.2.1 target="solana_stable_layout"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-stable-layout-bea554623dc9f444\lib-solana_stable_layout`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.304419000s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-stake-interface v1.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_stake_interface", ["rlib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-stake-interface-1.2.1\\src\\lib.rs", Edition2021) }
+   1.304470600s  INFO prepare_target{force=false package_id=solana-stake-interface v1.2.1 target="solana_stake_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-stake-interface-3bf8c448f0502605\lib-solana_stake_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.306607800s  INFO prepare_target{force=false package_id=solana-sysvar v2.2.1 target="solana_sysvar"}: cargo::core::compiler::fingerprint: fingerprint error for solana-sysvar v2.2.1/Check { test: false }/TargetInner { ..: lib_target("solana_sysvar", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-sysvar-2.2.1\\src\\lib.rs", Edition2021) }
+   1.306662000s  INFO prepare_target{force=false package_id=solana-sysvar v2.2.1 target="solana_sysvar"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-sysvar-6b8ee9772f7d7b78\lib-solana_sysvar`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.309768400s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint: fingerprint error for base64 v0.22.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("base64", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\base64-0.22.1\\src\\lib.rs", Edition2018) }
+   1.309826800s  INFO prepare_target{force=false package_id=base64 v0.22.1 target="base64"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\base64-d22485985cdca7d1\lib-base64`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_path
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: git_filter_source_repo
+  18: <unknown>
+  19: <unknown>
+  20: git_midx_writer_dump
+  21: git_filter_source_repo
+  22: git_midx_writer_dump
+  23: BaseThreadInitThunk
+  24: RtlUserThreadStart
+   1.311776200s  INFO prepare_target{force=false package_id=solana-vote-interface v2.2.4 target="solana_vote_interface"}: cargo::core::compiler::fingerprint: fingerprint error for solana-vote-interface v2.2.4/Check { test: false }/TargetInner { ..: lib_target("solana_vote_interface", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\solana-vote-interface-2.2.4\\src\\lib.rs", Edition2021) }
+   1.311836000s  INFO prepare_target{force=false package_id=solana-vote-interface v2.2.4 target="solana_vote_interface"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\solana-vote-interface-7e5c72d8fc31a421\lib-solana_vote_interface`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_path
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: git_filter_source_repo
+  17: <unknown>
+  18: <unknown>
+  19: git_midx_writer_dump
+  20: git_filter_source_repo
+  21: git_midx_writer_dump
+  22: BaseThreadInitThunk
+  23: RtlUserThreadStart
+   1.314212200s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint: fingerprint error for thiserror v1.0.69/Check { test: false }/TargetInner { ..: lib_target("thiserror", ["lib"], "C:\\Users\\user\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\thiserror-1.0.69\\src\\lib.rs", Edition2021) }
+   1.314271400s  INFO prepare_target{force=false package_id=thiserror v1.0.69 target="thiserror"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\thiserror-fbb87e8dfba4bd9e\lib-thiserror`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_path
+  10: git_filter_source_path
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: git_filter_source_repo
+  15: git_filter_source_repo
+  16: <unknown>
+  17: <unknown>
+  18: git_midx_writer_dump
+  19: git_filter_source_repo
+  20: git_midx_writer_dump
+  21: BaseThreadInitThunk
+  22: RtlUserThreadStart
+   1.315886100s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic)/Check { test: true }/TargetInner { ..: lib_target("basic", ["cdylib", "lib"], "C:\\Users\\user\\OneDrive\\Desktop\\OTC-Options\\OTC_Options_v1\\anchor\\programs\\basic\\src\\lib.rs", Edition2021) }
+   1.315969300s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\target\debug\.fingerprint\basic-e8ebe3fd48fdd15e\test-lib-basic`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_path
+   6: git_filter_source_path
+   7: git_filter_source_path
+   8: git_filter_source_path
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_filter_source_repo
+  13: git_filter_source_repo
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking cfg-if v1.0.0
+    Checking subtle v2.6.1
+    Checking typenum v1.18.0
+    Checking serde v1.0.219
+    Checking cpufeatures v0.2.17
+    Checking num-traits v0.2.19
+    Checking borsh v1.5.7
+    Checking zerocopy v0.7.35
+    Checking getrandom v0.2.15
+    Checking bytemuck v1.22.0
+    Checking once_cell v1.21.3
+    Checking solana-atomic-u64 v2.2.1
+    Checking bs58 v0.5.1
+    Checking solana-sanitize v2.2.1
+    Checking ahash v0.8.11
+    Checking rand_core v0.6.4
+    Checking generic-array v0.14.7
+    Checking five8_core v0.1.2
+    Checking zeroize v1.8.1
+    Checking hashbrown v0.13.2
+    Checking solana-msg v2.2.1
+    Checking solana-decode-error v2.2.1
+    Checking five8_const v0.1.4
+    Checking solana-program-memory v2.2.1
+    Checking zerocopy v0.8.24
+    Checking arrayref v0.3.9
+    Checking getrandom v0.1.16
+    Checking log v0.4.27
+    Checking constant_time_eq v0.3.1
+    Checking crypto-common v0.1.6
+    Checking block-buffer v0.10.4
+    Checking rand_core v0.5.1
+    Checking digest v0.9.0
+    Checking arrayvec v0.7.6
+    Checking block-buffer v0.9.0
+    Checking digest v0.10.7
+    Checking borsh v0.10.4
+    Checking crunchy v0.2.3
+    Checking lazy_static v1.5.0
+    Checking keccak v0.1.5
+    Checking sha2 v0.10.8
+    Checking curve25519-dalek v4.1.3
+    Checking blake3 v1.8.2
+    Checking opaque-debug v0.3.1
+    Checking sha3 v0.10.8
+    Checking sha2 v0.9.9
+    Checking libsecp256k1-core v0.2.2
+    Checking thiserror v2.0.12
+    Checking num-integer v0.1.46
+    Checking bitflags v2.9.0
+    Checking ppv-lite86 v0.2.21
+    Checking base64 v0.12.3
+    Checking base64 v0.22.1
+    Checking memoffset v0.9.1
+    Checking num-bigint v0.4.6
+    Checking solana-borsh v2.2.1
+    Checking solana-native-token v2.2.1
+    Checking rand_chacha v0.2.2
+    Checking solana-hash v2.2.1
+    Checking bincode v1.3.3
+    Checking solana-fee-calculator v2.2.1
+    Checking solana-short-vec v2.2.1
+    Checking serde_bytes v0.11.17
+    Checking rand v0.7.3
+    Checking bv v0.11.1
+    Checking solana-serde-varint v2.2.1
+    Checking solana-sha256-hasher v2.2.1
+    Checking solana-keccak-hasher v2.2.1
+    Checking rand_chacha v0.3.1
+    Checking solana-blake3-hasher v2.2.1
+    Checking solana-program-option v2.2.1
+    Checking thiserror v1.0.69
+    Checking solana-pubkey v2.3.0
+    Checking solana-big-mod-exp v2.2.1
+    Checking base64 v0.21.7
+    Checking rand v0.8.5
+    Checking solana-instruction v2.2.1
+    Checking solana-sdk-ids v2.2.1
+    Checking solana-nonce v2.2.1
+    Checking libsecp256k1 v0.6.0
+    Checking solana-sysvar-id v2.2.1
+    Checking solana-program-error v2.2.1
+    Checking solana-system-interface v1.0.0
+    Checking solana-serialize-utils v2.2.1
+    Checking solana-transaction-error v2.2.1
+    Checking solana-bincode v2.2.1
+    Checking solana-clock v2.2.1
+    Checking solana-slot-hashes v2.2.1
+    Checking solana-rent v2.2.1
+    Checking solana-slot-history v2.2.1
+    Checking solana-account-info v2.2.1
+    Checking solana-last-restart-slot v2.2.1
+    Checking solana-epoch-schedule v2.2.1
+    Checking solana-message v2.3.0
+    Checking solana-address-lookup-table-interface v2.2.2
+    Checking solana-epoch-rewards v2.2.1
+    Checking solana-vote-interface v2.2.4
+    Checking solana-cpi v2.2.1
+    Checking solana-account v2.2.1
+    Checking solana-program-entrypoint v2.2.1
+    Checking solana-stake-interface v1.2.1
+    Checking solana-instructions-sysvar v2.2.1
+    Checking solana-loader-v3-interface v3.0.0
+    Checking solana-loader-v4-interface v2.2.1
+    Checking solana-feature-gate-interface v2.2.1
+    Checking solana-program-pack v2.2.1
+    Checking solana-stable-layout v2.2.1
+    Checking solana-loader-v2-interface v2.2.1
+    Checking solana-example-mocks v2.2.1
+    Checking solana-sysvar v2.2.1
+    Checking solana-secp256k1-recover v2.2.1
+    Checking solana-program v2.2.1
+    Checking anchor-lang v0.31.1
+    Checking basic v0.1.0 (C:\Users\user\OneDrive\Desktop\OTC-Options\OTC_Options_v1\anchor\programs\basic)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 43.06s
